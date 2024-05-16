@@ -1,4 +1,4 @@
-public record DatosParesDeMoneda(
+public record DatosConversionDePares(
         String base_code,
         String target_code,
         double conversion_rate,

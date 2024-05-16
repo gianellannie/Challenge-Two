@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public record DatosCodigosAdmitidos() {
+import java.util.List;
+
+public record DatosCodigosAdmitidos(
+        List<List<String>> supported_codes
+) {
 }
